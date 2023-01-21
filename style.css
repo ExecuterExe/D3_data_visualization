@@ -1,9 +1,49 @@
 .trafficLight{
-    width: 200px;
-    height: 300px;
-    border: 2px gray solid;
+    position: relative;
+    width: 550px;
+    height: 850px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.first_light{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
-    margin: 40px;
+    left:150px;
+    top: 10px;
+}
+
+.second_light{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    left:150px;
+    top:270px;
+}
+
+.third_light{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    left:150px;
+    top: 530px;
+}
+
+.title_time{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+    color: blue;
+    z-index: 3;
+    font-size: 40px;
+    text-align: center;
 }
 
 .trafficLight-red{
@@ -16,4 +56,14 @@
 
 .trafficLight-green{
     background-color: green;
+}
+
+.js-btn{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 50%;
 }
