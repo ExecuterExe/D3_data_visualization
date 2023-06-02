@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Светофор version 0.1</title>
+    <title>SVG</title>
 </head>
 <body>
-        <button class="js-btn">Запустить светофор</button>
-        <div class="trafficLight">
-            <div class="first_light">
-
-            </div>
-            <div class="second_light">
-                <p class="title_time"></p>
-            </div>
-            <div class="third_light">
-
-            </div>
-        </div>  
-<script src="index.js"></script>
+    <svg width="960" height="500">
+        <circle cx="50" cy="50" r="20"></circle>
+        <circle cx="100" cy="50" r="10"></circle>
+        <circle cx="150" cy="50" r="20" fill="blue"></circle>
+        <circle cx="200" cy="50" r="15" fill="aqua"></circle>
+        <circle cx="250" cy="50" r="20"></circle>
+        <rect x="75" y="100" width="150" height="250" fill="black"></rect>
+        <rect x="175" y="110" width="40" height="40" fill="blue"></rect>
+        <rect x="85" y="110" width="40" height="40" fill="blue"></rect>
+        <rect x="175" y="160" width="40" height="40" fill="blue"></rect>
+        <rect x="85" y="210" width="40" height="40" fill="blue"></rect>
+        <rect x="175" y="210" width="40" height="40" fill="blue"></rect>
+        <rect x="85" y="160" width="40" height="40" fill="blue"></rect>
+        <rect x="125" y="290" width="45" height="60" fill="brown"></rect>
+        <circle cx="165" cy="320" r="3" fill="yellow"></circle>
+        <rect x="1" y="1" width="798" height="398" fill="none" stroke="blue" stroke-width="2"></rect>
+        <rect x="600" y="200" width="108" height="100" fill="green" stroke="yellow" stroke-width="5"></rect>
+    </svg>
 </body>
 </html>
